@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        -->
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/progress"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/background_chantier"/>
+
+    <ImageView
+        android:id="@+id/group"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="325dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/add_button"
+        android:elevation="4dp"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/keur_massar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:text="@string/keur_massar"
+        android:textAppearance="@style/keur_massar"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/d_marrage_1"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp"
+        android:text="@string/d_marrage_1"
+        android:textAppearance="@style/keur_massar"
+        />
+
+    <TextView
+        android:id="@+id/finition_13"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:text="@string/finition_13"
+        android:textAppearance="@style/keur_massar"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/execution_box"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:background="#E5E2E2"
+        />
+
+    <TextView
+        android:id="@+id/solidite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="310dp"
+        android:text="Solidité"
+        android:textAppearance="@style/solidite"
+        />
+    <View
+        android:id="@+id/vector"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="305dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/icon_technique"
+        />
+
+        <View
+            android:id="@+id/rectangle_1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="345dp"
+            android:background="#E5E2E2"
+            />
+
+        <TextView
+            android:id="@+id/electricite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="355dp"
+            android:text="Electricité"
+            android:textAppearance="@style/solidite"
+            />
+        <View
+            android:id="@+id/img_electricite"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/icon_elec"
+            />
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="390dp"
+        android:background="#E5E2E2"
+        />
+
+    <TextView
+        android:id="@+id/plomberie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400dp"
+        android:text="Plomberie"
+        android:textAppearance="@style/solidite"
+        />
+    <View
+        android:id="@+id/img_plomberie"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="395dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/icon_plomberie"
+        />
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="435dp"
+        android:background="#E5E2E2"
+        />
+
+    <TextView
+        android:id="@+id/securite_incendie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="445dp"
+        android:text="Sécurité Incendie"
+        android:textAppearance="@style/solidite"
+        />
+    <View
+        android:id="@+id/img_securite_incendie"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/secu_incendie"
+        />
+    <View
+        android:id="@+id/rectangle_7"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="480dp"
+        android:background="#E5E2E2"
+        />
+
+    <TextView
+        android:id="@+id/environnement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="490dp"
+        android:text="Environnement"
+        android:textAppearance="@style/solidite"
+        />
+    <View
+        android:id="@+id/img_environnement"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="485dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/icon_environnement"
+        />
+    <View
+        android:id="@+id/rectangle_8"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="525dp"
+        android:background="#E5E2E2"
+        />
+
+    <TextView
+        android:id="@+id/industrie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="535dp"
+        android:text="Industrie"
+        android:textAppearance="@style/solidite"
+        />
+    <View
+        android:id="@+id/img_industrie"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/icon_industrie"
+        />
+
+    <!--
+      <android.support.design.widget.BottomNavigationView
+          android:id="@+id/navigation"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom"
+          android:background="@color/bgBottomNavigation"
+          android:foreground="?attr/selectableItemBackground"
+          app:itemIconTint="@android:color/white"
+          app:itemTextColor="@android:color/white"
+          app:menu="@menu/navigation" />
+   -->
+
+
+    <!--
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="126dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    -->
+</android.support.design.widget.CoordinatorLayout>

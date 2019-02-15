@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ConstatActivity">
+
+    <ImageView
+        android:id="@+id/img_capturephot"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/capture_photo"
+        />
+
+    <TextView
+        android:id="@+id/titre_du_co"
+        android:layout_width="178dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="274dp"
+        android:text="Titre du constat"
+        android:textAppearance="@style/titre_du_co"
+        />
+
+    <EditText
+        android:id="@+id/rectangle_3"
+        android:layout_width="337dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="297dp"
+        android:background="#F3F3F3"
+        />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="178dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="374dp"
+        android:text="Description"
+        android:textAppearance="@style/description"
+        />
+
+    <EditText
+        android:id="@+id/rectangle_4"
+        android:layout_width="337dp"
+        android:layout_height="166dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="397dp"
+        android:background="#F3F3F3"
+        />
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="169dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="524dp"
+        android:background="#AEAEAE"
+        />
+    <TextView
+        android:id="@+id/annuler"
+        android:layout_width="84dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="533dp"
+        android:text="Annuler"
+        android:textAppearance="@style/annuler"
+        android:gravity="center_horizontal"
+        />
+    <ImageView
+        android:id="@+id/btn_valider"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="204dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="524dp"
+        android:background="#ED7F10"
+        />
+    <TextView
+        android:id="@+id/valider"
+        android:layout_width="84dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="246dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="533dp"
+        android:text="Valider"
+        android:textAppearance="@style/valider"
+        android:gravity="center_horizontal"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

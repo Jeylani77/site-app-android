@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.alpages.e_site.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Contrat"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_dossier"
+        android:orderInCategory="100"
+        android:title="Dossier"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_execution"
+        android:orderInCategory="100"
+        android:title="Execution"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_facturation"
+        android:orderInCategory="100"
+        android:title="Facturation"
+        app:showAsAction="never" />
+</menu>

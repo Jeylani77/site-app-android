@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">E-Site</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_home">Accueil</string>
+    <string name="title_chantier">Affaire</string>
+    <string name="title_dossier">Dossier</string>
+    <string name="title_alert">Alerte</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="chantier_1">Chantier 1</string>
+    <string name="keur_massar">Keur Massar, Rue 21</string>
+    <string name="finition_13">Finition :  13 / 06 / 2019</string>
+    <string name="d_marrage_1">D\u00C3\u00A9marrage :  13 / 12 / 2018</string>
+
+
+</resources>

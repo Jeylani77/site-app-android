@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <View
+        android:id="@+id/group_2"
+        android:layout_width="211dp"
+        android:layout_height="211dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/stat_image"
+        />
+
+    <View
+        android:id="@+id/rectangle_suspendus"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:background="#E5E2E2"
+        />
+
+    <TextView
+        android:id="@+id/txt_suspendus"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="270dp"
+        android:text="Suspendus"
+        android:textAppearance="@style/suspendus"
+        />
+
+    <TextView
+        android:id="@+id/txt_percent_susp"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="270dp"
+        android:text="31%"
+        android:textAppearance="@style/some_id"
+        android:gravity="right"
+        />
+    <View
+        android:id="@+id/icon_susp"
+        android:layout_width="20dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="270dp"
+        android:background="#FF473A"
+        />
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="320dp"
+        android:background="#E5E2E2"
+        />
+
+    <TextView
+        android:id="@+id/en_cours"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:text="En Cours"
+        android:textAppearance="@style/suspendus"
+        />
+
+    <TextView
+        android:id="@+id/en_cours2"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:text="36%"
+        android:textAppearance="@style/some_id"
+        android:gravity="right"
+        />
+    <View
+        android:id="@+id/en_cours3"
+        android:layout_width="20dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:background="#ED7F10"
+        />
+
+    <View
+        android:id="@+id/rectangle_6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="390dp"
+        android:background="#E5E2E2"
+        />
+
+    <TextView
+        android:id="@+id/not1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="410dp"
+        android:text="Non Entamés"
+        android:textAppearance="@style/suspendus"
+        />
+
+    <TextView
+        android:id="@+id/not2"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="410dp"
+        android:text="24%"
+        android:textAppearance="@style/some_id"
+        android:gravity="right"
+        />
+    <View
+        android:id="@+id/not3"
+        android:layout_width="20dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="410dp"
+        android:background="#E8DF07"
+        />
+
+    <View
+        android:id="@+id/rectangle_7"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="460dp"
+        android:background="#E5E2E2"
+        />
+
+    <TextView
+        android:id="@+id/termine1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="480dp"
+        android:text="Terminés"
+        android:textAppearance="@style/suspendus"
+        />
+
+    <TextView
+        android:id="@+id/termine2"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="480dp"
+        android:text="49%"
+        android:textAppearance="@style/some_id"
+        android:gravity="right"
+        />
+    <View
+        android:id="@+id/termine3"
+        android:layout_width="20dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="480dp"
+        android:background="#53B716"
+        />
+
+
+
+</FrameLayout>

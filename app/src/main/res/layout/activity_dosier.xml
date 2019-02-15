@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        -->
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/progress"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/background_chantier"/>
+
+    <ImageView
+        android:id="@+id/group"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="325dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/add_button"
+        android:elevation="4dp"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/keur_massar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:text="@string/keur_massar"
+        android:textAppearance="@style/keur_massar"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/d_marrage_1"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp"
+        android:text="@string/d_marrage_1"
+        android:textAppearance="@style/keur_massar"
+        />
+
+    <TextView
+        android:id="@+id/finition_13"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:text="@string/finition_13"
+        android:textAppearance="@style/keur_massar"
+        />
+
+    <ImageView
+        android:id="@+id/img_rapport"
+        android:layout_width="146dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:background="#F6BF87"
+        />
+
+    <View
+        android:id="@+id/vector"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/icon_rapport2" />
+
+    <TextView
+        android:id="@+id/rapport"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="375dp"
+        android:text="RAPPORT"
+        android:textAppearance="@style/rapport"
+        android:gravity="center_horizontal"
+        />
+
+    <ImageView
+        android:id="@+id/img_pv"
+        android:layout_width="146dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:background="#F6BF87"
+        />
+    <View
+        android:id="@+id/icon_pv"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/icon_pv" />
+    <TextView
+        android:id="@+id/txt_pv"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="375dp"
+        android:text="PV"
+        android:textAppearance="@style/rapport"
+        android:gravity="center_horizontal"
+        />
+
+    <ImageView
+        android:id="@+id/imvTechnique"
+        android:layout_width="146dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450dp"
+        android:background="#F6BF87"
+        />
+    <View
+        android:id="@+id/icon_tech"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/icon_technique2" />
+    <TextView
+        android:id="@+id/txt_tech"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="525dp"
+        android:text="TECHNIQUE"
+        android:textAppearance="@style/rapport"
+        android:gravity="center_horizontal"
+        />
+
+
+    <ImageView
+        android:id="@+id/imvplan"
+        android:layout_width="147dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450dp"
+        android:background="#F6BF87"
+        />
+    <View
+        android:id="@+id/icon_plan"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/icon_plan" />
+    <TextView
+        android:id="@+id/txt_plan"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="525dp"
+        android:text="PLAN"
+        android:textAppearance="@style/rapport"
+        android:gravity="center_horizontal"
+        />
+
+
+
+    <!--
+      <android.support.design.widget.BottomNavigationView
+          android:id="@+id/navigation"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom"
+          android:background="@color/bgBottomNavigation"
+          android:foreground="?attr/selectableItemBackground"
+          app:itemIconTint="@android:color/white"
+          app:itemTextColor="@android:color/white"
+          app:menu="@menu/navigation" />
+   -->
+
+
+      <!--
+          <android.support.design.widget.FloatingActionButton
+              android:id="@+id/fab"
+              android:layout_width="wrap_content"
+              android:layout_height="126dp"
+              android:layout_gravity="bottom|end"
+              android:layout_margin="@dimen/fab_margin"
+              app:srcCompat="@android:drawable/ic_dialog_email" />
+
+      -->
+</android.support.design.widget.CoordinatorLayout>
